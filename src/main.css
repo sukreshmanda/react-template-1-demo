@@ -1,0 +1,63 @@
+body{
+    padding: 2%;
+    background-image: linear-gradient(#00f260,#0575e6);
+    background-attachment: fixed;
+}
+.row{
+    height: 90vh;
+}
+.box{
+    box-shadow: 2px 2px 4px 2px #000000;
+}
+.half{
+    display: block;
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+}
+.sidepanel{
+    background-color:rgb(250, 191, 230);
+    border-radius: 20px;
+    text-align: center;
+}
+.name{
+    font-family: 'Tangerine',cursive;
+    font-weight: bold;
+}
+.mainpanel{
+    background-color: #f046af;
+    border-radius: 2%;
+}
+.social{
+    width: 20px;
+    transition: all 500ms ease;
+}
+
+.social:hover{
+    transform: scale(2);
+}
+
+.twitter{
+    border-radius: 20px;
+    transition: all 500ms ease; 
+}
+.instagram{
+    border-radius: 20px;
+    transition: all 500ms ease;
+}
+.linkedin{
+    border-radius: 20px;
+    transition: all 500ms ease;
+}
+.tag{
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: 1px 1px 1px 1px #000000;
+    border-radius: 10px;
+}
+.logo{
+    border-radius: 1px 1px 1px 1px #000000;
+}
+.location{
+    vertical-align: sub;
+}
