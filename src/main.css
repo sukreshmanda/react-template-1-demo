@@ -6,7 +6,7 @@ body{
 .img-small{
     width:20vh;
     padding: 1vh;
-    border-radius: 10vh;
+    border-radius: 8vh;
 }
 .sidepanel{
     display: flex;
@@ -25,13 +25,44 @@ body{
     background-image: linear-gradient(#ff00aa,#00c2fd);
 }
 .name{
-    font-size: 20px;
+    font-size: 4vw;
     font-weight: bold;
     text-shadow: 1px 0px white;
+    font-family: 'Mrs Sheppards', cursive;
+}
+.tag{
+    font-size: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-shadow: 1px 0px white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fas{
+    font-size: 1vw;
+    margin-bottom: 1vw;
+}
+.email{
+    font-size: 1vw;
+    font-weight: bold;
     font-family: cursive;
 }
+.email-template{
+    margin-top: 1vw;
+    padding-top: 8px;
+    margin-bottom: 1vw;
+    background-color: #eca8d5;
+    width: 100%;
+    border-radius: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms ease;
+}
+.email-template:hover{
+    transform: scale(1.03);
+}
 .social{
-    width: 2vw;
+    width: 3vw;
     transition: all 500ms ease;
 }
 .social:hover{
