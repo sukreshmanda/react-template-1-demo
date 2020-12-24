@@ -3,61 +3,37 @@ body{
     background-image: linear-gradient(#00f260,#0575e6);
     background-attachment: fixed;
 }
-.row{
-    height: 90vh;
-}
-.box{
-    box-shadow: 2px 2px 4px 2px #000000;
-}
-.half{
-    display: block;
-    margin-top: 8px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 40%;
+.img-small{
+    width:20vh;
+    padding: 1vh;
+    border-radius: 10vh;
 }
 .sidepanel{
-    background-color:rgb(250, 191, 230);
-    border-radius: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.local{
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4vh;
+    box-shadow: 1px 1px 3px 3px #000000;
+    background-image: linear-gradient(#ff00aa,#00c2fd);
 }
 .name{
-    font-family: 'Tangerine',cursive;
+    font-size: 20px;
     font-weight: bold;
-}
-.mainpanel{
-    background-color: #f046af;
-    border-radius: 2%;
+    text-shadow: 1px 0px white;
+    font-family: cursive;
 }
 .social{
-    width: 20px;
+    width: 2vw;
     transition: all 500ms ease;
 }
-
 .social:hover{
     transform: scale(2);
-}
-
-.twitter{
-    border-radius: 20px;
-    transition: all 500ms ease; 
-}
-.instagram{
-    border-radius: 20px;
-    transition: all 500ms ease;
-}
-.linkedin{
-    border-radius: 20px;
-    transition: all 500ms ease;
-}
-.tag{
-    font-family:'Times New Roman', Times, serif;
-    box-shadow: 1px 1px 1px 1px #000000;
-    border-radius: 10px;
-}
-.logo{
-    border-radius: 1px 1px 1px 1px #000000;
-}
-.location{
-    vertical-align: sub;
 }
