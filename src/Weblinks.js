@@ -7,11 +7,11 @@ class Weblinks extends Component{
     }
     linksclicked(event){
         if(event.target.alt === 'instagram'){
-            window.open('https://www.instagram.com/excitation_energy/','new_window');
+            window.open(this.props.instagram_link,'new_window');
         }else if(event.target.alt === 'linkedin'){
-            window.open('https://www.linkedin.com/in/manda-sukresh-002640167/','new_window');
+            window.open(this.props.linkedin_link,'new_window');
         }else if(event.target.alt === 'twitter'){
-            window.open('https://twitter.com/mandasukresh','new_window');
+            window.open(this.props.twitter_link,'new_window');
         }else{
             console.log("Error")
         }
